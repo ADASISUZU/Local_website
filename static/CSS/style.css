@@ -1,0 +1,39 @@
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 28px;
+  margin: 8px 0;
+  border: 2px solid #e7e7e7;
+  cursor: pointer;
+ 
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+  background-color: #f4511e;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1
+{
+   font-size:48px;
+   margin-top:0;
+   font-family:Arial, sans-serif;
+   text-shadow:2px 0 15px #292929;
+   letter-spacing:4px;
+   text-decoration:none;
+   color:#DDD;
+}
+
+h3
+{
+   font-size:48px;
+   margin-top:0;
+   font-family:Arial, sans-serif;
+   text-shadow:2px 0 15px #292929;
+   letter-spacing:4px;
+   text-decoration:none;
+   color:#DDD;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predictive Maintenance</title>
+	<link rel="stylesheet" href="static/CSS/style.css"/>
+<style>
+body{
+   background-image:url(static/img/isza4.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  border-style: ridge;
+  border-width: medium;
+}
+</style>
+</head>
+<body>
+
+<div class="content">
+	<a href="https://www.isuzucv.com/en/index"><img src="static/img/iszaLogo.png" alt=""></a>
+	<h1>Predictive Maintenance</h1>
+</div>
+<section class="col-md-4 col-sm-6" style="background-color: green;">
+  {% for image in image_list %}
+
+    <img src="static/SensorPlots/{{image}}" alt="">
+     <!-- <a href="/static/SensorPlots/{{ image }}">{{ image }}</a>>-->
+
+  {% endfor %}
+  </section>
+  <!--FOOTER AREA-->
+
+	<div class="footer-area dark-bg">
+		<div class="footer-area-bg"></div>
+			<div class="footer-bottom-area wow fadeIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+							<div class="single-footer-widget footer-about">
+								<a name="name_of_target"><h3>Contact Information</h3></a>
+									<ul>
+										<li><i class="fa fa-phone"></i>  +1734-455-7595</li>
+										<li><i class="fa-envelope"></i> <a href="mailto:info@isuzutechcenter.com">info@isuzutechcenter.com</a></li>
+										<li><i class="fa fa-map-marker"></i> Isuzu Technical Center of America,Inc.<br>
+																			 46401 Commerce Center Drive <br>
+																			 Plymouth, MI 48170</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--FOOTER AREA END-->
+</body>
+</head>

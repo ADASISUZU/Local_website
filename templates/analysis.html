@@ -1,0 +1,397 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--====== USEFULL META ======-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This web page gives an overview of the services provided by Isuzu" />
+    <meta name="keywords" content="Technology Updates, Data analysis, Blog, Team, Contacts" />
+
+    <!--====== TITLE TAG ======-->
+    <title>Isuzu</title>
+
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="static/img/logo.png" />
+
+    <!--====== STYLESHEETS ======-->
+    <link rel="stylesheet" href="static/CSS/normalize.css">
+    <link rel="stylesheet" href="static/CSS/animate.css">
+    <link rel="stylesheet" href="static/CSS/stellarnav.min.css">
+    <link rel="stylesheet" href="static/CSS/owl.carousel.css">
+    <link href="static/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="static/CSS/font-awesome.min.css" rel="stylesheet">
+
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="static/style.css" rel="stylesheet">
+    <link href="static/CSS/responsive.css" rel="stylesheet">
+
+    <script src="static/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="home-one">
+
+
+    <!--- PRELOADER -->
+    <div class="preeloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!--SCROLL TO TOP-->
+    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+
+    <!--START TOP AREA-->
+	<header class="top-area single-page" id="home">
+		<div class="top-area-bg" data-stellar-background-ratio="0.6"></div>
+			<div class="header-top-area">
+				<!--MAINMENU AREA-->
+				<div class="mainmenu-area" id="mainmenu-area">
+					<div class="mainmenu-area-bg"></div>
+					<nav class="navbar">
+						<div class="container">
+						    <div class="navbar-header">
+								<a href="#home" class="navbar-brand"><img src="static/img/logo.png" alt="logo"></a>
+						    </div>
+							<div class="search-and-language-bar pull-right">
+								<ul>
+								<li><a href="#"><i class="fa fa-user"></i></a></li>
+								<li class="search-box"><i class="fa fa-search"></i></li>
+								<li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+								<li class="select-language">
+								<select name="#" id="#">
+								<option selected value="End">ENG</option>
+								<option value="ARA">ARA</option>
+								<option value="CHI">CHI</option>
+								</select>
+								</li>
+								</ul>
+								<form action="#" class="search-form">
+    								<input type="search" name="search" id="search">
+    								<button type="submit"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+							<div id="main-nav" class="stellarnav">
+								<ul id="nav" class="nav navbar-nav">
+    								<li><a href="http://isuzu.pythonanywhere.com">home</a>
+    								</li>
+    								<li><a href="http://isuzu.pythonanywhere.com">about</a>
+    								<ul>
+    								<li><a href="#company">About Company</a></li>
+    								<li><a href="#team">About Team</a></li>
+    								<li><a href="#name_of_target">About Support</a></li>
+    								</ul>
+    								</li>
+    								<li><a href="http://isuzu.pythonanywhere.com">ITCA Library</a>
+    								<ul>
+        								<li><a href="http://isuzu.pythonanywhere.com/technology">Technology Updates</a></li>
+        								<li><a href="#">Developments and progress</a></li>
+        								<li><a href="http://isuzu.pythonanywhere.com/translation">Document Translation</a></li>
+    								</ul>
+    								</li>
+    								<li><a href="#">Data Analytics</a>
+        								<ul>
+            								<li><a href="http://isuzu.pythonanywhere.com/upload">New Prototype</a></li>
+            								<li><a href="http://isuzu.pythonanywhere.com/analysis">Data Visualization</a></li>
+            								<li><a href="http://isuzu.pythonanywhere.com/analysis">Driver behavior clustering</a></li>
+            								<li><a href="http://isuzu.pythonanywhere.com/analysis">Piston Crack Analysis</a></li>
+            								<li><a href="http://isuzu.pythonanywhere.com/analysis">OBD Prediction analysis</a></li>
+            								<li><a href="http://isuzu.pythonanywhere.com/analysis">Auto-ML Automation</a></li>
+        								</ul>
+    								</li>
+    								<li><a href="http://isuzu.pythonanywhere.com/blog">Blog</a></li>
+    								<li><a href="#name_of_target">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			<!--END MAINMENU AREA END-->
+            </div>
+            <div class="welcome-area">
+                <div class="area-bg"></div>
+                <div class="container">
+                    <div class="row flex-v-center">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div class="welcome-text text-center">
+                                <h2>Data Analysis</h2>
+                                <p>“The goal is to turn data into information, and information into insight.”</p>
+                                <p> – Carly Fiorina, former executive, president, and chair of Hewlett-Packard Co.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+	<!--END TOP AREA-->
+
+	<!--Analysis AREA-->
+<!--
+<section class="about-area gray-bg section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+				<div class="row">
+					<div class="blog-details">
+						<h3>File Selection</h3>
+							<div class="quote-form-area wow fadeIn">
+							<h6>Please upload the MMU data for training</h6>
+								<form id="uploadexcel" enctype="multipart/form-data" method="post" action="#">
+								   <input id="fileupload" name="myfile" type="file" />
+								   <input type="submit" value="submit" id="submit"  class="read-more"/>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="blog-details">
+							<h3>Train configuration</h3>
+								<div class="quote-form-area wow fadeIn">
+									<h6>Please select the ML algorithm</h6>
+										<input type="radio" id="linearReg" name="method" value="linearReg">
+										<label for="linearReg">Linear Regression</label><br>
+										<input type="radio" id="lassoReg" name="method" value="lassoReg">
+										<label for="lassoReg">Lasso Regression</label><br>
+										<input type="radio" id="dectree" name="method" value="dectree">
+										<label for="dectree">Decision Tree</label>
+								</div>
+								<div class="quote-form-area wow fadeIn">
+								<h6>Choose whether to train or test the model</h6>
+									<input type="radio" id="train" name="model" value="train">
+									<label for="train">Train model</label><br>
+									<input type="radio" id="test" name="model" value="test">
+									<label for="test">Test model</label>
+								</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			<div class="col-md-8 col-lg-8 col-sm-6 col-xs-12">
+				<div class="blog-details">
+				<h3>View Analysis</h3>
+					<div class="quote-form-area wow fadeIn">
+					<h6>Please select the ML algorithm</h6>
+							<input type="radio" id="linearReg" name="method" value="linearReg">
+							<label for="linearReg">Linear Regression</label><br>
+							<input type="radio" id="lassoReg" name="method" value="lassoReg">
+							<label for="lassoReg">Lasso Regression</label><br>
+							<input type="radio" id="dectree" name="method" value="dectree">
+							<label for="dectree">Decision Tree</label>
+
+					</div>
+					<div class="quote-form-area wow fadeIn">
+					<h6>Choose whether to train or test the model</h6>
+						<input type="radio" id="train" name="model" value="train">
+						<label for="train">Train model</label><br>
+						<input type="radio" id="test" name="model" value="test">
+						<label for="test">Test model</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+-->
+
+
+
+
+
+        <section class="about-area gray-bg section-padding">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+        				<form action = "http://isuzu.pythonanywhere.com/analyze" method = "POST"
+                             enctype = "multipart/form-data">
+        					<div class="row">
+        						<div class="blog-details">
+        							<h3>File Selection</h3>
+        								<div class="quote-form-area wow fadeIn">
+        								<h6>Please upload the MMU data for training</h6>
+        									<input id="fileupload" name="analysis_file" type="file" />
+        								</div>
+        						</div>
+        					</div>
+        					<div class="row">
+        						<div class="blog-details">
+        							<h3>Train configuration</h3>
+        								<div class="quote-form-area wow fadeIn">
+        								    <label for="method">Please select the ML algorithm</label>
+                                                <select name="method">
+                                                  <option class="disabled">No selection</option>
+                                                  <option value="linearReg">Linear Regression</option>
+                                                  <option value="lassoReg">Lasso Regression</option>
+                                                  <option value="dectree">Decision Tree</option>
+                                                </select>
+                                                <!--
+        									<h6>Please select the ML algorithm</h6>
+        										<input type="radio" id="linearReg" name="method" value="linearReg">
+        										<label for="linearReg">Linear Regression</label><br>
+        										<input type="radio" id="lassoReg" name="method" value="lassoReg">
+        										<label for="lassoReg">Lasso Regression</label><br>
+        										<input type="radio" id="dectree" name="method" value="dectree">
+        										<label for="dectree">Decision Tree</label>
+
+        										<h6>Choose whether to train or test the model</h6>
+        										<input type="radio" id="train" name="model" value="train">
+        									<label for="train">Train model</label><br>
+        									<input type="radio" id="test" name="model" value="test">
+        									<label for="test">Test model</label>
+        										-->
+
+            								<h6>Choose whether to train or test the model</h6>
+            									<input type="radio" id="train" name="model" value="train">
+            									<label for="train">Train model</label><br>
+            									<input type="radio" id="test" name="model" value="test">
+            									<label for="test">Test model</label>
+								        </div>
+        						</div>
+        					</div>
+        					<button type="submit" value="submit" class="read-more">Submit</button>
+        				</form>
+        			</div>
+
+
+
+
+            				<h3>View Analysis</h3>
+
+            				    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                                <div class="blog-details">
+                				    <img src="https://www.pythonanywhere.com/user/isuzu/files/home/isuzu/mysite/coolant_temperature.png" alt="image" style="width:300px;height:300px;">
+                                </div>
+             </div>
+                				<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                				    <div class="blog-details">
+                				  <h5>Evaluation metrics</h3>
+                				    <p>Accuracy : 86%<br></p>
+                                    <p>Precision: 78%<br></p>
+                                    <p>Recall: 76%<br></p>
+                                    <p>F1-score: 80%</p>
+                                </div>
+                            </div>
+
+ </div>
+        		</div>
+        	</div>
+
+        </section>
+<!--Analysis AREA END-->
+
+	<!--TESTMONIAL AREA -->
+<section class="testmonial-area section-padding">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+<div class="area-title text-center wow fadeIn">
+<h2>Big Data Analysis Team</h2>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+<div class="client-photo-list wow fadeIn">
+<div class="client_photo">
+<div class="item">
+<img src="static/img/team/yong.PNG" alt="">
+</div>
+<div class="item">
+<img src="static/img/team/ash.PNG" alt="">
+</div>
+<div class="item">
+<img src="static/img/team/wenbo.PNG" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="client_nav">
+<span class="fa fa-angle-left testi_prev"></span>
+<span class="fa fa-angle-right testi_next"></span>
+</div>
+</div>
+<div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+<div class="client-details-content wow fadeIn">
+<div class="client_details">
+<div class="item">
+<q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </q>
+<h3>Yong Sun</h3>
+<p>Supervisor, yong.sun@isza.com</p>
+</div>
+<div class="item">
+<q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </q>
+<h3>Aishwarya Kadam</h3>
+<p>Intern, aishwarya.kadam@isza.com</p>
+</div>
+<div class="item">
+<q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </q>
+<h3>Wenbo Yu</h3>
+<p>Data Scientist, wenbo.yu@isza.com</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--TESTMONIAL AREA END -->
+
+
+
+    <!--FOOTER AREA-->
+<!--
+<div class="footer-area dark-bg">
+<div class="footer-area-bg"></div>
+<div class="footer-top-area wow fadeIn">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+<div class="subscribe-content">
+-->
+<div class="footer-area dark-bg">
+    <div class="footer-area-bg"></div>
+        <div class="footer-bottom-area wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-widget footer-about">
+                            <a name="name_of_target"><h3>Contact Information</h3></a>
+                                <ul>
+                                    <li><i class="fa fa-phone"></i>  +1734-455-7595</li>
+                                    <li><i class="fa-envelope"></i> <a href="mailto:info@isuzutechcenter.com">info@isuzutechcenter.com</a></li>
+                                    <li><i class="fa fa-map-marker"></i> Isuzu Technical Center of America,Inc.<br>
+                                                                         46401 Commerce Center Drive <br>
+                                                                         Plymouth, MI 48170</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FOOTER AREA END-->
+
+<!--====== SCRIPTS JS ======-->
+<script src="static/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="static/js/vendor/bootstrap.min.js"></script>
+
+<!--====== PLUGINS JS ======-->
+<script src="static/js/vendor/jquery.easing.1.3.js"></script>
+<script src="static/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+<script src="static/js/vendor/jquery.appear.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/stellar.js"></script>
+<script src="static/js/wow.min.js"></script>
+<script src="static/js/stellarnav.min.js"></script>
+<script src="static/js/contact-form.js"></script>
+<script src="static/js/jquery.sticky.js"></script>
+
+<!--===== ACTIVE JS=====-->
+<script src="static/js/main.js"></script>
+</body>
